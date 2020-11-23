@@ -44,9 +44,9 @@
     .image-overlay {
         display: block;
         width: 100%;
-        height: 100%;
+        height: 100%; 
       }
-      
+
       .overlay {
         position: absolute;
         bottom: 0;
@@ -82,3 +82,69 @@
           width: 10%;
           height: 10%;
       }
+      .motor {
+          color: yellowgreen;
+          margin-left: 5em;
+      }
+      .motor2 {
+          color: rgb(70, 250, 250);
+      }
+
+      .ue {
+          width: 15%;
+      }
+
+      .p-motores {
+          color: rgb(255, 255, 255);
+          margin-top: 5rem ;
+      }
+
+      .navbarletra {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 75%;
+      }
+      .separacion {
+          margin-top: 20px;
+      }
+      .p-motores:hover{
+          background-color: black;
+          opacity: .9;
+          transition: .2s;
+      }
+      .buscador {
+        box-shadow: 3px 4px 0px 0px #1f4b52;
+        background:linear-gradient(to bottom, #a6d3e3 5%, #0b4852 100%);
+        background-color:#a6d3e3;
+        border-radius:18px;
+        border:1px solid #030405;
+        display:inline-block;
+        cursor:pointer;
+        color:#f7f7f7;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #8fb7c4;
+    }
+    .buscador:hover {
+        background:linear-gradient(to bottom, #0b4852 5%, #a6d3e3 100%);
+        background-color:#0b4852;
+    }
+    .buscador:active {
+        position:relative;
+        top:1px;
+    }
+    input[type="search"]{
+        width:170px;
+        margin:10px;
+        padding:10px 16px;
+        border-radius:32px;
+        outline:none;
+        border:2px solid #ccd1d1;
+        background:#a7a0a4;
+        transition: 0.5s;
+    }
+    input[type="search"]:focus{
+        background:#fff;
+        width:300px;
+    }
