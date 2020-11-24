@@ -84,7 +84,6 @@
       }
       .motor {
           color: yellowgreen;
-          margin-left: 5em;
       }
       .motor2 {
           color: rgb(70, 250, 250);
@@ -148,3 +147,12 @@
         background:#fff;
         width:300px;
     }
+
+    @media screen and (max-width: 500px) {
+        h1.telefono-p {
+          font-size: 5vw;
+        }
+        @media screen and (max-width: 500px) {
+            p.gmail {
+              font-size: 3vw;
+            }
