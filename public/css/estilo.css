@@ -149,33 +149,45 @@
         width:300px;
     }
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 767px) {
         h1.telefono-p {
           font-size: 5vw;
         }
-        @media screen and (max-width: 500px) {
+    }
+        @media screen and (max-width: 767px) {
             p.gmail {
               font-size: 3vw;
             }
-
+        }
     img[alt="unreal engine"]{
         width: 15%;
     }        
 
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 767px) {
         p.p-motores {
-          font-size:50%;
-          width: 70%;
+          font-size:55%;
+          width: 80%;
           display: block;
           margin: auto;
+          margin-left: 40px;
         }
-        @media screen and (max-width: 500px) {
+    }
+        @media screen and (max-width: 767px) {
             img[alt=cryengine] {
-           margin-top: 10px;
+           margin-top: 50px;
             }
-            @media screen and (max-width: 500px) {
+        }
+            @media screen and (max-width: 767px) {
                 img[alt=unity] {
-               height:35%;
-               margin-bottom: -250px;
-               margin-left: 10px;
+               height:50%;
+               width: 50%;
+               margin-bottom: -150px;
+               
+               margin-right: 40px;
+                }
+
+                @media screen and (max-width: 767px) {
+                    .motores {
+                        width: 90%;
+                    }
                 }
