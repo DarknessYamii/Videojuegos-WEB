@@ -125,6 +125,7 @@
         padding:7px 25px;
         text-decoration:none;
         text-shadow:0px 1px 0px #8fb7c4;
+        font-family: 'Press Start 2P', cursive;
     }
     .buscador:hover {
         background:linear-gradient(to bottom, #0b4852 5%, #a6d3e3 100%);
@@ -185,9 +186,79 @@
                
                margin-right: 40px;
                 }
-
+            }
                 @media screen and (max-width: 767px) {
                     .motores {
                         width: 90%;
                     }
                 }
+    
+               
+        .hLoL {
+            color: rgb(63, 203, 254);
+        }
+        .pLoL{
+            color: rgb(172, 249, 255);
+        }
+
+        .hDota{
+            color: rgb(253, 115, 1);
+        }
+        .pDota{
+            color: rgb(250, 184, 1);
+        }
+
+       /* Botones */ 
+       
+       .buttongames {
+        display: inline-flex;
+        height: 40px;
+        width: 150px;
+        border: 2px solid #BFC0C0;
+        color: #BFC0C0;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: .8em;
+        letter-spacing: 1.5px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+      
+      a {
+        color: #BFC0C0;
+        text-decoration: none;
+        letter-spacing: 1px;
+      }
+      
+       .buttong {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      .buttong a {
+        position: relative;
+        transition: all .45s ease-Out;
+      }
+      
+      .translate {
+        transform: rotate(50deg);
+        width: 100%;
+        height: 250%;
+        left: -200px;
+        top: -30px;
+        background: #BFC0C0;
+        position: absolute;
+        transition: all .3s ease-Out;
+      }
+      
+      .buttong:hover .translate {
+        left: 0;
+      }
+      
+      .buttong:hover a {
+        color: #2D3142;
+      }
+      
+
