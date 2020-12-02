@@ -18,6 +18,22 @@
         background-size: cover;
         background-attachment: fixed;
     }
+
+    .bRequisitos {
+    
+        background-image: url("../fondo2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .bFeedback {
+    
+        background-image: url("../fondo3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
     .center {
         text-align: center;
         align-items: center;
@@ -306,3 +322,49 @@
       .zoom {
           transition: .3s;
       }
+
+      .accionvid {
+        height: 50em;
+        width: auto;
+      }  
+       @media screen and (max-width: 767px) {
+        .accionvid {
+            height: 20em;
+            width: 80%;
+        }
+    }
+    @media screen and (max-width: 767px) {
+    .h1uncharted  {
+        font-size: 6vw;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        div.requisitos>h3{
+            font-size: 6vw;
+        }
+    }
+    @media screen and (max-width: 767px){
+    .h1requisitos{
+        font-size: 10vw;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .feedback{
+        font-size: 10vw;
+    }
+}
+
+.feedbackForm{
+    color: rgb(231, 46, 255);
+}
+
+.inputFeedback{
+    opacity: .3;
+    color: black;
+    transition: .2s;
+}
+.inputFeedback:hover{
+    opacity: 1;
+    color: rgb(0, 247, 255);
+}
