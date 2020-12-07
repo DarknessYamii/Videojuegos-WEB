@@ -9,8 +9,7 @@
         text-align: center;
         color: white;
     }
-
-        
+        /* Background para el index principal*/
     body {
     
         background-image: url("../fondo.png");
@@ -18,7 +17,7 @@
         background-size: cover;
         background-attachment: fixed;
     }
-
+        /* Background para los index de Requisitos y todos sus links*/
     .bRequisitos {
     
         background-image: url("../fondo2.jpg");
@@ -26,7 +25,7 @@
         background-size: cover;
         background-attachment: fixed;
     }
-
+        /*Background para el index de Feedback */
     .bFeedback {
     
         background-image: url("../fondo3.jpg");
@@ -41,7 +40,7 @@
     .rowlg {
         height: 100px;
     }
-
+    /*Asignacion de font-family a los H y los P */
     h1{
         font-family: 'Press Start 2P', cursive;
     }
@@ -57,6 +56,7 @@
     h5{
         font-family: 'Press Start 2P', cursive;
     }
+    /* Overlay para la pagina index y sus grids*/
     .image-overlay {
         display: block;
         width: 100%;
@@ -125,7 +125,7 @@
           background-color: black;
           opacity: .9;
           transition: .2s;
-          
+        /*Estilo propio del buscador de la Nav Bar */  
       }
       .buscador {
         box-shadow: 3px 4px 0px 0px #1f4b52;
@@ -165,7 +165,7 @@
         background:#fff;
         width:300px;
     }
-
+    /* Breakpoints propios para poner estilos propios segun estos breakpoints */
     @media screen and (max-width: 767px) {
         h1.telefono-p {
           font-size: 5vw;
@@ -209,7 +209,7 @@
                     }
                 }
     
-               
+             /* Estilos propios para cada H y cada P de los juegos insertos en Categorias */  
         .hLoL {
             color: rgb(63, 203, 254);
         }
@@ -248,7 +248,7 @@
             color: white
         }
 
-       /* Botones */ 
+       /* Botones del index Categorias */ 
        
        .buttongames {
         display: inline-flex;
@@ -300,6 +300,7 @@
       .buttong:hover a {
         color: #2D3142;
       }
+      /* Estilo para los index de los juegos como LoL.html Dota.html etc... */
       div.requisitos{
         font-family: 'Press Start 2P', cursive; 
       }
@@ -322,11 +323,12 @@
       .zoom {
           transition: .3s;
       }
-
+      /* Estilo para el iFrame de la pagina Accion.html */
       .accionvid {
         height: 50em;
         width: auto;
       }  
+      /*Breakpoint especificos para Requisitos.html ya que hay estilos que no concuerdan y necesitan estilo propio para el responsive*/
        @media screen and (max-width: 767px) {
         .accionvid {
             height: 20em;
@@ -348,13 +350,13 @@
         font-size: 10vw;
     }
 }
-
+/*Breakpoint para el estilo de el H1 de Feedback.html*/ 
 @media screen and (max-width: 767px){
     .feedback{
         font-size: 10vw;
     }
 }
-
+/*Estilo para las letras del Form del Feedback.html */
 .feedbackForm{
     color: rgb(231, 46, 255);
     font-family: 'Press Start 2P', cursive;

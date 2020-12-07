@@ -1,9 +1,10 @@
+/*Estilo de la barra de navegacion de abajo de la pagina Categorias.html*/
 a {
     -webkit-transition: all .2s linear;
     -moz-transition: all .2s linear;
     transition: all .2s linear;
   }
-  
+  /*Letra usada en la barra de navegacion */
   @font-face {
     font-family: 'Edmondsans';
     src: url('http://designitcodeit.com/live/huP64P3jnA76/fonts/edmondsans-bold-webfont.eot');
@@ -135,7 +136,7 @@ a {
   .pagination1 .prev1 a { text-indent: 4px; }
   .pagination1 .prev1:before,
   .pagination1 .next1:before { content: none; }
-
+/*Animaciones usadas para la pagina Categorias.html*/
   .bounce-in-right {
     -webkit-animation: bounce-in-right 1.1s both;
             animation: bounce-in-right 1.1s both;

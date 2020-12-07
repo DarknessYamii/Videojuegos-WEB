@@ -1,3 +1,8 @@
+
+
+
+//JS no funcional ya que su funcion no es la deseada
+
 const c = document.querySelector('.container')
 const indexs = Array.from(document.querySelectorAll('.index'))
 let cur = -1
